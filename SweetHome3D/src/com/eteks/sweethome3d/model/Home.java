@@ -157,8 +157,7 @@ public class Home implements Serializable, Cloneable {
         HomePieceOfFurniture.SortableProperty.NAME,
         HomePieceOfFurniture.SortableProperty.WIDTH,
         HomePieceOfFurniture.SortableProperty.DEPTH,
-        HomePieceOfFurniture.SortableProperty.HEIGHT,
-            HomePieceOfFurniture.SortableProperty.VOLUME,
+        HomePieceOfFurniture.SortableProperty.HEIGHT, HomePieceOfFurniture.SortableProperty.VOLUME,
         HomePieceOfFurniture.SortableProperty.VISIBLE});
     // Init transient lists and other fields
     init(true);
@@ -318,8 +317,7 @@ public class Home implements Serializable, Cloneable {
           HomePieceOfFurniture.SortableProperty.NAME,
           HomePieceOfFurniture.SortableProperty.WIDTH,
           HomePieceOfFurniture.SortableProperty.DEPTH,
-          HomePieceOfFurniture.SortableProperty.HEIGHT,
-              HomePieceOfFurniture.SortableProperty.VOLUME,
+          HomePieceOfFurniture.SortableProperty.HEIGHT, HomePieceOfFurniture.SortableProperty.VOLUME,
           HomePieceOfFurniture.SortableProperty.COLOR,
           HomePieceOfFurniture.SortableProperty.MOVABLE,
           HomePieceOfFurniture.SortableProperty.DOOR_OR_WINDOW,
@@ -650,7 +648,7 @@ public class Home implements Serializable, Cloneable {
   
   /**
    * Sets the selected level in home and notifies listeners of the change.
-   * @param level  the level to select
+   * @param level the level to select
    * @since 3.4
    */
   public void setSelectedLevel(Level selectedLevel) {

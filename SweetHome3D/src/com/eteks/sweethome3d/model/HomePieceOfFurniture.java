@@ -593,8 +593,11 @@ public class HomePieceOfFurniture extends HomeObject implements PieceOfFurniture
     }
   }
 
+  /**
+   * Returns the volume of this piece of furniture, in cubic centimeters.
+   */
   public float getVolume() {
-    return getWidth() * getHeight() * getDepth();
+    return getWidth() * getDepth() * getHeight();
   }
 
   /**
